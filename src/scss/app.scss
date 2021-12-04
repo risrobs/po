@@ -27,3 +27,24 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+/* Add application styles & imports to this file! */
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+* {
+  box-sizing: border-box;
+}
+
+mat-toolbar {
+    display:flex;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.RouterOutlet {
+  padding-top: 4rem;
+}
+
+html, body {
+  margin: 0px;
+}
